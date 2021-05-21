@@ -16,7 +16,7 @@ services:
       - ./uploads:/app/uploads
     environment:
       - PORT=80
-      - ROOT_URL=http://172.16.254.1:80
+      - ROOT_URL=http://xxx.xxx.xxx.xxx:xx
       - MONGO_URL=mongodb://mongo:27017/rocketchat
       - MONGO_OPLOG_URL=mongodb://mongo:27017/local
 #       - HTTP_PROXY=http://proxy.domain.com
